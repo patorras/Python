@@ -1,8 +1,9 @@
-x = 0
 
-if x > 0:
-    print("x is positive")
-elif x < 0:
-    print("x is negative")
-else:
-    print("x is zero")
+
+print("What is your name?")
+name = input()
+
+print("What is your age?")
+age = input()
+
+print("Nice to meet you " + name + " the year you will turn 100 is " + str(100 - int(age) + 2019))
