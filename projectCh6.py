@@ -11,9 +11,8 @@ def printTable(list):
     	for indexes in lists:
     		if len(indexes) > colWidths[col]:
     			colWidths[col] = len(indexes)
-    		else:
-    			break
     	col = col + 1
+
 
     max = 0
     for i in range(len(colWidths)):
