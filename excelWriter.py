@@ -2,9 +2,9 @@ import pandas as pd
 import openpyxl
 import sys
 
-dict = {"Site": ["GOG"],
-       "Username": ["Triotank@gmail.com"],
-       "Password": ["Sickness666DevildriverSapopt85SLBForever"]
+dict = {"Site": [""],
+       "Username": [""],
+       "Password": [""]
         }
 
 columnsTitles = ["Site", "User", "Pass"]
